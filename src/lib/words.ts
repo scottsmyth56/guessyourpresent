@@ -83,6 +83,7 @@ export const WORDS = [
 // Valid guesses (includes WORDS plus additional valid words)
 export const VALID_GUESSES = new Set([
   ...WORDS,
+  "spain", "brain", "train", "drain", "grain", "plain", "slain", "stain", "chain", "claim",
   "aahed", "aalii", "aargh", "abaca", "abaci", "aback", "abaft", "abamp", "abase", "abash",
   "abate", "abaya", "abbey", "abbot", "abeam", "abele", "abets", "abhor", "abide", "abled",
   "abler", "abmho", "abode", "abohm", "aboil", "aboma", "aboon", "abort", "abris", "abuzz",
