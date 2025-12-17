@@ -22,7 +22,7 @@ export function WordleGame() {
     board: createEmptyBoard(),
     currentRow: 0,
     currentCol: 0,
-    targetWord: getRandomWord(),
+    targetWord: 'SPAIN',
     gameStatus: 'playing',
     usedLetters: new Map(),
   }));
@@ -46,7 +46,7 @@ export function WordleGame() {
       board: createEmptyBoard(),
       currentRow: 0,
       currentCol: 0,
-      targetWord: getRandomWord(),
+      targetWord: 'SPAIN',
       gameStatus: 'playing',
       usedLetters: new Map(),
     });
