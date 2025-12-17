@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Libre Franklin', 'sans-serif'],
+        serif: ['Noto Serif', 'serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +60,19 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        tile: {
+          empty: "hsl(var(--tile-empty))",
+          "empty-border": "hsl(var(--tile-empty-border))",
+          "filled-border": "hsl(var(--tile-filled-border))",
+          correct: "hsl(var(--tile-correct))",
+          present: "hsl(var(--tile-present))",
+          absent: "hsl(var(--tile-absent))",
+          text: "hsl(var(--tile-text))",
+        },
+        key: {
+          DEFAULT: "hsl(var(--key-bg))",
+          text: "hsl(var(--key-text))",
         },
       },
       borderRadius: {
