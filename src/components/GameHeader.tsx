@@ -19,8 +19,8 @@ export function GameHeader({ onNewGame, onHelp }: GameHeaderProps) {
           <HelpCircle className="w-6 h-6" />
         </Button>
         
-        <h1 className="font-serif text-3xl font-bold tracking-tight text-foreground">
-          Wordle
+        <h1 className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-foreground text-center">
+          🎄 Happy Christmas Meg 🎄
         </h1>
         
         <Button
